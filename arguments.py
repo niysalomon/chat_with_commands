@@ -16,7 +16,7 @@ class Option:
         if option.packet <= 100:
             print("you are in the right packet size")
         else:
-            print("you have exceeded the packet size")
+            print("you have exceeded packet size")
             sys.exit(0)
 
     @staticmethod
