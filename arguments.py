@@ -15,9 +15,6 @@ class Option:
             print("Connecting to the port")
         if option.packet <= 100:
             print("you are in the right packet size")
-        # if option.run:
-        #     print("Running the server")
-
         else:
             print("you have exceeded the packet size")
             sys.exit(0)
